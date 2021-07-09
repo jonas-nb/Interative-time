@@ -68,14 +68,14 @@ function background() {
 
         
             if (hora >= 4 && hora < 6) {
-                muda.style.backgroundImage = `url(/assets/img/manhã1.jpg)`;
+                muda.style.backgroundImage = `url(assets/img/manhã1.jpg)`;
             } else if (hora >= 6 && hora < 9) {
-                muda.style.backgroundImage = `url(/assets/img/manhã2.jpg)`;
+                muda.style.backgroundImage = `url(assets/img/manhã2.jpg)`;
             } else if (hora >= 9 && hora < 10) {
-                muda.style.backgroundImage = `url(/assets/img/manhã3.jpg)`;
+                muda.style.backgroundImage = `url(assets/img/manhã3.jpg)`;
                 borda.style.border = "#adb5bd solid 5px"
             } else if (hora >= 10 && hora < 12) {
-                muda.style.backgroundImage = `url(/assets/img/manhã4.jpg)`;
+                muda.style.backgroundImage = `url(assets/img/manhã4.jpg)`;
                 datas.style.color = "#212529";
                 sauda.style.color = "#212529";
                 dia.style.color = "#212529";
@@ -83,20 +83,20 @@ function background() {
                 sauda.style.textShadow = "none";
                 dia.style.textShadow = "none";
             } else if (hora >= 12 && hora < 14) {
-                muda.style.backgroundImage = `url(/assets/img/tarde1.jpg)`;
+                muda.style.backgroundImage = `url(assets/img/tarde1.jpg)`;
             } else if (hora >= 14 && hora < 16) {
-                muda.style.backgroundImage = `url(/assets/img/tarde2.jpg)`;
+                muda.style.backgroundImage = `url(assets/img/tarde2.jpg)`;
                 datas.style.color = "#212529";
                 sauda.style.color = "#212529";
                 dia.style.color = "#212529";
             } else if (hora >= 16 && hora < 18) {
-                muda.style.backgroundImage = `url(/assets/img/tarde3.jpg)`;
+                muda.style.backgroundImage = `url(assets/img/tarde3.jpg)`;
             } else if (hora >= 18 && hora < 21) {
-                muda.style.backgroundImage = `url(/assets/img/noite1.jpg)`;
+                muda.style.backgroundImage = `url(assets/img/noite1.jpg)`;
             } else if (hora >= 21 && hora < 23) {
-                muda.style.backgroundImage = `url(/assets/img/noite2.jpeg)`;
+                muda.style.backgroundImage = `url(assets/img/noite2.jpeg)`;
             } else {
-                muda.style.backgroundImage = `url(/assets/img/madrugada1.jpg)`;
+                muda.style.backgroundImage = `url(assets/img/madrugada1.jpg)`;
             }
         
    } else{
