@@ -1,0 +1,1446 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
+/* fontes--------------------------------------------------------------- */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,500;0,700;0,900;1,100;1,400;1,500;1,700;1,900&display=swap');
+/* font-family: 'Roboto', sans-serif; */
+
+
+
+
+
+/* parte do header ------------------------------------------------ */
+header{
+    background-color: #343A40;
+    width: 100%;
+    height: 30vh;
+   
+    
+    
+}
+
+/* edição da logo --------------------------------------------- */
+#logo a {
+display: -webkit-box;
+display: -ms-flexbox;
+display: flex;
+-webkit-box-align: center;
+    -ms-flex-align: center;
+        align-items: center;
+-webkit-box-pack: center;
+    -ms-flex-pack: center;
+        justify-content: center;
+-webkit-box-orient: vertical;
+-webkit-box-direction: normal;
+    -ms-flex-direction: column;
+        flex-direction: column;
+text-decoration: none;
+color: #CED4DA;
+}
+#logo h1{
+    font-size: 30px;
+    color: #CED4DA;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 15px;
+}
+#logo i{
+font-size: 30px;
+padding-bottom: 0px;
+}
+
+/* edição do navbar dos links */
+#menu nav{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+    margin-top: 15px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#menu a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #F8F9FA;
+    border: solid 1px rgba(0, 0, 0, 0.164);
+    padding: 2px;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+/* edição do navbar de redes sociais-------------------------------------- */
+#redes-sociais{
+    display: none;
+}
+
+/* Parte da main--------------------------------------------------------- */
+main{
+    background-image: none;
+    background-color: #343A40;
+    width: 100%;
+    height: 50vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+/* parte da informações--------------------------------------------------- */
+#info{
+    
+    width: 100vw;
+    height: 50px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    
+}
+
+#info h2{
+    font-size: 15px;
+    color: #E9ECEF;
+    text-shadow: #00000071 1px 2px 1px ;
+}
+
+#datas{
+    padding-left: 7px;
+    
+}
+
+#saudação{
+    padding-right: 15px;
+}
+
+#dia-semana{
+    margin-right: 20px;
+}
+/* Relogio ------------------------------------------------------------------ */
+#relogio{
+    border: black solid 5px;
+    width: 190px;
+    height: 190px;
+    border-radius: 50%;
+    margin-top: 30px;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+            box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    
+}
+#relogio h1{
+    font-size: 60px;
+    color: #F8F9FA ;
+}
+
+/* parte do footer ------------------------------------------------------------ */
+footer{
+    background-color: #343A40;
+    height: 30vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+}
+
+/* edição do navbar das redes no footer  */
+#redes-footer {
+    
+    width: 40%;
+    font-size: 30px;
+    
+    
+}
+
+#redes-footer nav{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    
+}
+
+#redes-footer a{
+    color:#F8F9FA;
+}
+
+/* edição copyright -------------------------------------- */
+#copy h2{
+    color: #F8F9FA;
+
+}
+
+/* fim do code -------------------------------------------- */
+
+
+
+
+
+
+
+
+
+
+/* codigo para celular na horizontal */
+@media (min-width: 576px){
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
+/* * parte do header ------------------------------------------------ */ */
+header{
+    background-color: #343A40;
+    width: 100%;
+    height: 20vh;
+   
+    
+    
+}
+
+/* edição da logo --------------------------------------------- */
+#logo a {
+display: -webkit-box;
+display: -ms-flexbox;
+display: flex;
+-webkit-box-align: center;
+    -ms-flex-align: center;
+        align-items: center;
+-webkit-box-pack: center;
+    -ms-flex-pack: center;
+        justify-content: center;
+-webkit-box-orient: vertical;
+-webkit-box-direction: normal;
+    -ms-flex-direction: column;
+        flex-direction: column;
+text-decoration: none;
+color: #CED4DA;
+}
+#logo h1{
+    font-size: 15px;
+    color: #CED4DA;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 15px;
+}
+#logo i{
+font-size: 20px;
+padding-bottom: 0px;
+}
+
+/* edição do navbar dos links */
+#menu nav{
+    display: none;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+    margin-top: 15px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#menu a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #F8F9FA;
+    border: solid 1px rgba(0, 0, 0, 0.164);
+    padding: 2px;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+/* edição do navbar de redes sociais-------------------------------------- */
+#redes-sociais{
+    display: none;
+}
+
+/* Parte da main--------------------------------------------------------- */
+main{
+    background-image: none;
+    background-color: #343A40;
+    width: 100%;
+    height: 100vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+/* parte da informações--------------------------------------------------- */
+#info{
+    
+    width: 60%;
+    height: 50px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    
+}
+
+#info h2{
+    font-size: 15px;
+    color: #E9ECEF;
+    text-shadow: #00000071 1px 2px 1px ;
+}
+
+#datas{
+    padding-left: 7px;
+    
+}
+
+#saudação{
+    padding-right: 15px;
+}
+
+#dia-semana{
+    margin-right: 20px;
+}
+/* Relogio ------------------------------------------------------------------ */
+#relogio{
+    border: black solid 5px;
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    margin-top: 0px;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+            box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    
+}
+#relogio h1{
+    font-size: 60px;
+    color: #F8F9FA ;
+}
+
+/* parte do footer ------------------------------------------------------------ */
+footer{
+    background-color: #343A40;
+    height: 40vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+}
+
+/* edição do navbar das redes no footer  */
+#redes-footer {
+    
+    width: 40%;
+    font-size: 30px;
+    
+    
+}
+
+#redes-footer nav{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    
+}
+
+#redes-footer a{
+    color:#F8F9FA;
+}
+
+/* edição copyright -------------------------------------- */
+#copy h2{
+    color: #F8F9FA;
+    margin-top: 30px;
+
+}
+
+/* fim do code -------------------------------------------- */
+}
+
+
+
+/* Code para tablets */
+
+@media (min-width: 768px){
+    /*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
+/* * parte do header ------------------------------------------------ */ 
+header{
+    background-color:  #343A40;
+    width: 100%;
+    height: 40vh;
+   
+    
+    
+}
+
+/* edição da logo --------------------------------------------- */
+#logo{
+    
+    width: 25vw;
+    margin: auto;
+}
+
+#logo a {
+display: -webkit-box;
+display: -ms-flexbox;
+display: flex;
+-webkit-box-align: center;
+    -ms-flex-align: center;
+        align-items: center;
+-ms-flex-pack: distribute;
+    justify-content: space-around;
+-webkit-box-orient: horizontal;
+-webkit-box-direction: normal;
+    -ms-flex-direction: row;
+        flex-direction: row;
+text-decoration: none;
+color: #CED4DA;
+}
+#logo h1{
+    font-size: 30px;
+    color: #CED4DA;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 15px;
+}
+#logo i{
+font-size: 30px;
+padding-bottom: 0px;
+}
+
+/* edição do navbar dos links */
+#menu nav{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+    margin-top: 15px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#menu a {
+    width: 15vw;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #F8F9FA;
+    border: solid 1px rgba(0, 0, 0, 0.164);
+    padding: 2px;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+/* edição do navbar de redes sociais-------------------------------------- */
+#redes-sociais{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 50vw;
+    margin: auto;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-top: 30px;
+}
+
+#redes-sociais nav{
+    
+    width: 200px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+
+}
+#redes-sociais a{
+    font-size: 40px;
+    color: #F8F9FA;
+
+}
+
+/* Parte da main--------------------------------------------------------- */
+main{
+    background-image: none;
+    background-color: #343A40;
+    width: 100%;
+    height: 60vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+/* parte da informações--------------------------------------------------- */
+#info{
+    
+    
+    width: 80%;
+    height: 50px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    
+}
+
+#info h2{
+    font-size: 30px;
+    color: #E9ECEF;
+    text-shadow: #00000071 1px 2px 1px ;
+}
+
+#datas{
+    padding-left: 7px;
+    
+}
+
+#saudação{
+    padding-right: 15px;
+}
+
+#dia-semana{
+    margin-right: 20px;
+}
+/* Relogio ------------------------------------------------------------------ */
+#relogio{
+    border: black solid 5px;
+    margin-top: 50px;
+    width: 210px;
+    height: 210px;
+    border-radius: 50%;
+    margin-top: 0px;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+            box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    
+}
+#relogio h1{
+    font-size: 60px;
+    color: #F8F9FA ;
+}
+
+/* parte do footer ------------------------------------------------------------ */
+footer{
+    background-color: #343A40;
+    height: 10vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    
+}
+
+/* edição do navbar das redes no footer  */
+#redes-footer {
+    
+    width: 40%;
+    font-size: 30px;
+    
+    
+}
+
+#redes-footer nav{
+    display: none;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    
+}
+
+#redes-footer a{
+    color:#F8F9FA;
+}
+
+/* edição copyright -------------------------------------- */
+#copy h2{
+    color: #F8F9FA;
+    margin-top: 0px;
+
+}
+
+/* fim do code -------------------------------------------- */
+}
+
+/* Desktops 1*/
+@media (min-width: 992px){
+/* * parte do header ------------------------------------------------ */ 
+header{
+    background-color:  #343A40;
+    width: 100%;
+    height: 20vh;
+   display: -webkit-box;
+   display: -ms-flexbox;
+   display: flex;
+   -ms-flex-pack: distribute;
+       justify-content: space-around;
+    
+    
+}
+
+/* edição da logo --------------------------------------------- */
+#logo{
+   
+    width: 20vw;
+    margin-bottom: 150px;
+    
+}
+
+#logo a {
+display: -webkit-box;
+display: -ms-flexbox;
+display: flex;
+-webkit-box-align: center;
+    -ms-flex-align: center;
+        align-items: center;
+-ms-flex-pack: distribute;
+    justify-content: space-around;
+-webkit-box-orient: horizontal;
+-webkit-box-direction: normal;
+    -ms-flex-direction: row;
+        flex-direction: row;
+text-decoration: none;
+color: #CED4DA;
+}
+#logo h1{
+    font-size: 30px;
+    color: #CED4DA;
+    font-family: 'Roboto', sans-serif;
+    
+}
+#logo i{
+font-size: 30px;
+padding-bottom: 0px;
+}
+
+/* edição do navbar dos links */
+#menu nav{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    width: 50vw;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 60px;
+}
+
+#menu a {
+    width: 10vw;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #F8F9FA;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+    border: none;
+    border-left: 3px solid black;
+    -webkit-transition: linear 1s all;
+    -o-transition: linear 1s all;
+    transition: linear 1s all;
+    
+}
+#menu a:hover{
+    border: 1px black solid;
+    border-left: 3px solid black;
+    -webkit-box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+            box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+/* edição do navbar de redes sociais-------------------------------------- */
+#redes-sociais{
+   
+    display: -webkit-box;
+   
+    display: -ms-flexbox;
+   
+    display: flex;
+    width: 15vw;
+    position: relative;
+    bottom: 20px;
+    
+    
+}
+
+#redes-sociais nav{
+    
+    width: 150px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+
+}
+#redes-sociais a{
+    font-size: 20px;
+    color: #adb5bd;
+    -webkit-transition: linear color 0.5s;
+    -o-transition: linear color 0.5s;
+    transition: linear color 0.5s;
+}
+#redes-sociais a:hover{
+color: #f8f9fa ;
+}
+
+/* Parte da main--------------------------------------------------------- */
+main{
+    background-image: none;
+    border-top: rgb(141, 141, 141) solid 1px;
+    background-image: url();
+    background-size: cover;
+    background-color: #343A40;
+    width: 100%;
+    height: 80vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+/* parte da informações--------------------------------------------------- */
+#info{
+    
+    
+    width: 80%;
+    height: 50px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    
+}
+
+#info h2{
+    font-size: 30px;
+    color: #E9ECEF;
+    text-shadow: #00000071 1px 2px 1px ;
+}
+
+#datas{
+    padding-left: 7px;
+    
+}
+
+#saudação{
+    padding-right: 15px;
+}
+
+#dia-semana{
+    margin-right: 20px;
+}
+/* Relogio ------------------------------------------------------------------ */
+#relogio{
+    border: black solid 5px;
+    background-color:#6c757d77;
+    margin-top: 50px;
+    width: 280px;
+    height: 280px;
+    border-radius: 50%;
+    margin-top: 0px;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+            box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    
+}
+#relogio h1{
+    font-size: 100px;
+    color: #F8F9FA ;
+    text-shadow: rgba(0, 0, 0, 0.753)  1px 3px 7px;
+}
+
+/* parte do footer ------------------------------------------------------------ */
+footer{
+    background-color: #343A40;
+    height: 30vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    
+   
+    
+    
+}
+
+/* edição do navbar das redes no footer  */
+#redes-footer {
+    
+    width: 20%;
+    font-size: 40px;
+    
+    
+}
+
+#redes-footer nav{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    
+}
+
+#redes-footer a{
+    color:#F8F9FA;
+}
+
+/* edição copyright -------------------------------------- */
+#copy h2{
+    color: #F8F9FA;
+    margin-top: 0px;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+
+}
+
+/* fim do code -------------------------------------------- */
+}
+
+/* Desktops 2  */
+@media (min-width: 1200px){
+    /* * parte do header ------------------------------------------------ */ 
+    header{
+        background-color:  #343A40;
+        width: 100%;
+        height: 20vh;
+       display: -webkit-box;
+       display: -ms-flexbox;
+       display: flex;
+       -ms-flex-pack: distribute;
+           justify-content: space-around;
+        
+        
+    }
+    
+    /* edição da logo --------------------------------------------- */
+    #logo{
+       
+        width: 17vw;
+        margin-bottom: 150px;
+        
+    }
+    
+    #logo a {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    text-decoration: none;
+    color: #CED4DA;
+    }
+    #logo h1{
+        font-size: 32px;
+        color: #CED4DA;
+        font-family: 'Roboto', sans-serif;
+        
+    }
+    #logo i{
+    font-size: 30px;
+    padding-bottom: 0px;
+    }
+    
+    /* edição do navbar dos links */
+    #menu nav{
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-pack: distribute;
+            justify-content: space-around;
+        width: 50vw;
+        font-family: 'Roboto', sans-serif;
+        margin-top: 60px;
+    }
+    
+    #menu a {
+        width: 10vw;
+        font-size: 22px;
+        text-align: center;
+        text-decoration: none;
+        text-transform: uppercase;
+        color: #F8F9FA;
+        -webkit-box-shadow: none;
+                box-shadow: none;
+        border: none;
+        border-left: 3px solid black;
+        -webkit-transition: linear 1s all;
+        -o-transition: linear 1s all;
+        transition: linear 1s all;
+        
+    }
+    #menu a:hover{
+        border: 1px black solid;
+        border-left: 3px solid black;
+        -webkit-box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+                box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    }
+    
+    /* edição do navbar de redes sociais-------------------------------------- */
+    #redes-sociais{
+       
+        display: -webkit-box;
+       
+        display: -ms-flexbox;
+       
+        display: flex;
+        width: 15vw;
+        position: relative;
+        bottom: 20px;
+        
+        
+    }
+    
+    #redes-sociais nav{
+        
+        width: 150px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-pack: distribute;
+            justify-content: space-around;
+    
+    }
+    #redes-sociais a{
+        font-size: 30px;
+        color: #adb5bd;
+        -webkit-transition: linear color 0.5s;
+        -o-transition: linear color 0.5s;
+        transition: linear color 0.5s;
+    }
+    #redes-sociais a:hover{
+    color: #f8f9fa ;
+    }
+    
+    /* Parte da main--------------------------------------------------------- */
+    main{
+        background-image: none;
+        border-top: rgb(141, 141, 141) solid 1px;
+        background-image: url();
+        background-size: cover;
+        background-color: #343A40;
+        width: 100%;
+        height: 80vh;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-pack: space-evenly;
+            -ms-flex-pack: space-evenly;
+                justify-content: space-evenly;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+    }
+    /* parte da informações--------------------------------------------------- */
+    #info{
+        
+        
+        width: 80%;
+        height: 50px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-pack: distribute;
+            justify-content: space-around;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        
+    }
+    
+    #info h2{
+        font-size: 30px;
+        color: #E9ECEF;
+        text-shadow: #00000071 1px 2px 1px ;
+    }
+    
+    #datas{
+        padding-left: 7px;
+        
+    }
+    
+    #saudação{
+        padding-right: 15px;
+    }
+    
+    #dia-semana{
+        margin-right: 20px;
+    }
+    /* Relogio ------------------------------------------------------------------ */
+    #relogio{
+        border: black solid 5px;
+        background-color:#6c757d77;
+        margin-top: 50px;
+        width: 280px;
+        height: 280px;
+        border-radius: 50%;
+        margin-top: 0px;
+        -webkit-box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+                box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        
+    }
+    #relogio h1{
+        font-size: 100px;
+        color: #F8F9FA ;
+        text-shadow: rgba(0, 0, 0, 0.753)  1px 3px 7px;
+    }
+    
+    /* parte do footer ------------------------------------------------------------ */
+    footer{
+        background-color: #343A40;
+        height: 30vh;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: row;
+                flex-direction: row;
+        
+       
+        
+        
+    }
+    
+    /* edição do navbar das redes no footer  */
+    #redes-footer {
+        
+        width: 20%;
+        font-size: 40px;
+        
+        
+    }
+    
+    #redes-footer nav{
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+        
+    }
+    
+    #redes-footer a{
+        color:#F8F9FA;
+    }
+    
+    /* edição copyright -------------------------------------- */
+    #copy h2{
+        color: #F8F9FA;
+        margin-top: 0px;
+        font-family: 'Roboto', sans-serif;
+        text-transform: uppercase;
+    
+    }
+    
+    /* fim do code -------------------------------------------- */
+    }
+
+/* Desktop 3 */
+@media (min-width: 1400px){
+    /* * parte do header ------------------------------------------------ */ 
+    header{
+        background-color:  #343A40;
+        width: 100%;
+        height: 20vh;
+       display: -webkit-box;
+       display: -ms-flexbox;
+       display: flex;
+       -ms-flex-pack: distribute;
+           justify-content: space-around;
+        
+        
+    }
+    
+    /* edição da logo --------------------------------------------- */
+    #logo{
+       
+        width: 17vw;
+        margin-bottom: 150px;
+        
+    }
+    
+    #logo a {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    text-decoration: none;
+    color: #CED4DA;
+    }
+    #logo h1{
+        font-size: 40px;
+        color: #CED4DA;
+        font-family: 'Roboto', sans-serif;
+        
+    }
+    #logo i{
+    font-size: 30px;
+    padding-bottom: 0px;
+    }
+    
+    /* edição do navbar dos links */
+    #menu nav{
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-pack: distribute;
+            justify-content: space-around;
+        width: 50vw;
+        font-family: 'Roboto', sans-serif;
+        margin-top: 60px;
+    }
+    
+    #menu a {
+        width: 10vw;
+        font-size: 25px;
+        text-align: center;
+        text-decoration: none;
+        text-transform: uppercase;
+        color: #F8F9FA;
+        -webkit-box-shadow: none;
+                box-shadow: none;
+        border: none;
+        border-left: 3px solid black;
+        -webkit-transition: linear 1s all;
+        -o-transition: linear 1s all;
+        transition: linear 1s all;
+        
+    }
+    #menu a:hover{
+        border: 1px black solid;
+        border-left: 3px solid black;
+        -webkit-box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+                box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    }
+    
+    /* edição do navbar de redes sociais-------------------------------------- */
+    #redes-sociais{
+       
+        display: -webkit-box;
+       
+        display: -ms-flexbox;
+       
+        display: flex;
+        width: 15vw;
+        position: relative;
+        bottom: 20px;
+        
+        
+    }
+    
+    #redes-sociais nav{
+        
+        width: 150px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-pack: distribute;
+            justify-content: space-around;
+    
+    }
+    #redes-sociais a{
+        font-size: 35px;
+        color: #adb5bd;
+        -webkit-transition: linear color 0.5s;
+        -o-transition: linear color 0.5s;
+        transition: linear color 0.5s;
+    }
+    #redes-sociais a:hover{
+    color: #f8f9fa ;
+    }
+    
+    /* Parte da main--------------------------------------------------------- */
+    main{
+        background-image: none;
+        border-top: rgb(141, 141, 141) solid 1px;
+        background-image: url();
+        background-size: cover;
+        background-color: #343A40;
+        width: 100%;
+        height: 80vh;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-pack: space-evenly;
+            -ms-flex-pack: space-evenly;
+                justify-content: space-evenly;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+    }
+    /* parte da informações--------------------------------------------------- */
+    #info{
+        
+        
+        width: 80%;
+        height: 50px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-pack: distribute;
+            justify-content: space-around;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        
+    }
+    
+    #info h2{
+        font-size: 40px;
+        color: #E9ECEF;
+        text-shadow: #00000071 1px 2px 1px ;
+    }
+    
+    #datas{
+        padding-left: 7px;
+        
+    }
+    
+    #saudação{
+        padding-right: 15px;
+    }
+    
+    #dia-semana{
+        margin-right: 20px;
+    }
+    /* Relogio ------------------------------------------------------------------ */
+    #relogio{
+        border: black solid 5px;
+        background-color:#6c757d77;
+        margin-top: 50px;
+        width: 280px;
+        height: 280px;
+        border-radius: 50%;
+        margin-top: 0px;
+        -webkit-box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+                box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        
+    }
+    #relogio h1{
+        font-size: 100px;
+        color: #F8F9FA ;
+        text-shadow: rgba(0, 0, 0, 0.753)  1px 3px 7px;
+    }
+    
+    /* parte do footer ------------------------------------------------------------ */
+    footer{
+        background-color: #343A40;
+        height: 30vh;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: row;
+                flex-direction: row;
+        
+       
+        
+        
+    }
+    
+    /* edição do navbar das redes no footer  */
+    #redes-footer {
+        
+        width: 20%;
+        font-size: 60px;
+        
+        
+    }
+    
+    #redes-footer nav{
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+        
+    }
+    
+    #redes-footer a{
+        color:#F8F9FA;
+    }
+    
+    /* edição copyright -------------------------------------- */
+    #copy h2{
+        color: #F8F9FA;
+        margin-top: 0px;
+        font-family: 'Roboto', sans-serif;
+        text-transform: uppercase;
+    
+    }
+    
+    /* fim do code -------------------------------------------- */
+    }
